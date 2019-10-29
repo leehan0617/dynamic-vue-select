@@ -7,7 +7,7 @@ vue-select 컴포넌트에 페이징기능을 추가한 컴포넌트
 # Usage
 
 ```
-  <dynamic-vue-select v-model="mc"
+  <dynamic-vue-select v-model="element"
                       @search:focus="getListToServer"
                       :options="list"
                       :per-element="5"
